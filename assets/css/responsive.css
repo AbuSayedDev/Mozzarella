@@ -1,0 +1,300 @@
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+@media only screen 
+  and (min-width: 602px) 
+  and (max-width: 1024px)  {
+    .top-menu-left img {
+        width: 35%;
+        margin: 3px 0px 0px 32px;}
+    .top-menu-right nav>ul>li {
+        padding: 30px 20px;}
+    .top-menu-right ul li ul li {
+        padding: 10px 40px;}
+/*=====> header-section end <=======*/
+/*=====> Our-section start <=======*/
+    .our-menu {
+        grid-template-columns: repeat( auto-fit, minmax(500px, 1fr));}
+    .our-menu-left-op1 {
+        display: contents;
+        text-align: center;}
+    .our-menu-right-op-1 {
+        display: contents;
+        text-align: center;}
+/*=====> Our-section end <=======*/
+/*=====> Live-events-start<=======*/
+    .event-menu {
+        grid-template-columns: repeat( auto-fit, minmax(340px, 1fr));}
+    .event-menu-right h1 {
+        font-size: 60px;
+        margin: 0px 0px 0px 0px;}
+    .event-menu-right p {
+        padding: 0px 10px 0px 0px;}
+/*=====> Live-events-end <=============*/
+/*======> sub-section start <========*/
+    .form input {
+        width: 70%;
+        font-size: 17px;
+        margin-bottom: 10px;}
+    .form button {
+        width: 37%;
+        font-size: 17px;
+        border-radius: 47px 0 50px 0;}
+/*======> sub-section end <============*/
+/*======> contact-section start <======*/
+    .contact-form input {
+        width: 39%;
+        margin: 6px;
+        font-size: 15px;
+        padding: 13px;}
+    .contact-form textarea {
+        width: 84%;
+        margin: 8px;
+        font-size: 15px;}
+    .contact-form button {
+        width: 35%;
+        font-size: 15px;
+        border-radius: 50px 0 50px 0;}
+/*======> contact-section-end <=========*/
+}
+/* ----------- iPad 1, 2, Mini and Air end ----------- */
+/* ----------- responsive 601 end----------------------*/
+@media only screen and (max-width: 601px) {
+    .container{
+        padding: 0 10px;}
+    .top-menu-right{
+        display: none;}
+    .top-menu {
+        height: 80px;}
+    .top-menu-right nav>ul {
+        display: contents;}
+    .top-menu-right nav>ul>li {
+        float: none;
+        padding: 13px 0px;}
+    .top-menu-right nav{
+        position: relative;
+        top: 60px;
+        z-index: 999;}
+    .top-menu-right nav>ul>li>ul {
+        margin-left: -122px;
+    z-index: 999;}
+    .top-menu-right ul li ul li {
+        padding: 10px 14px;}
+    .button{
+        display: block;}
+    .header-text h1 {
+            font-size: 35px;}
+/*=====> Our-section start <=======*/
+    .our-menu {
+        grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));}
+    .top-our h1 {
+        font-size: 40px;}
+    .top-our p {
+        margin: 0 15px;}
+    .our-menu-left-op1 {
+        display: contents;
+        text-align: center;}
+    .our-menu-left-op1-text p {
+        margin: 0 10px;}
+    .our-menu-right-op-1 {
+        display: contents;
+        text-align: center;}
+    .our-menu-right-op-1-text {
+        padding: 0 10px;}
+    .our-menu-right-op1-img{
+        padding: 15px 0;}
+/*=====> Our-section end <=======*/
+/*=====> Live-events-start<=======*/
+.event-menu {
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));}
+.event-menu-left img {
+    width: 100%}
+.event-menu-left{
+    padding: 10px;}
+.event-menu-right {
+    text-align: center;
+    padding:0;}
+.event-menu-right h1 {
+    font-size: 40px;
+    margin: 0;}
+.event-menu-right pre {
+    font-size: 16px;
+    padding:0px;}
+.event-menu-right p {
+    padding: 0 10px;}
+.event-btn{
+    padding: 0 0 40px;}
+/*=====> Live-events-end <=============*/
+/*=====> Product-section-start <=======*/
+.product-heading h1 {
+    font-size: 45px;}
+.product-heading p {
+    padding: 0 10px;}
+.product-menu {
+    padding: 50px 0;
+    grid-gap: 15px;}
+/*======> product-section end <======*/
+/*=====> Product-section-end <==========*/
+/*=====> Dishes-section-start <=======*/
+    .dishes-background{
+    padding: 150px;} 
+/*=====> Dishes-section-end <=======*/
+/*=====> About-section-start <=======*/
+    .aboute-menu {
+        display: contents;}
+    .about-top h1 {
+        font-size: 35px;
+        padding: 20px 0;}
+    .about-top p {
+        padding: 0 10px;}
+    .aboute-left {
+        width: 100%;
+        text-align: center;
+        padding: 50px 0px;}
+    .aboute-left-text{
+        padding: 0 10px;}
+    .aboute-left-item {
+        display: contents;}
+    .aboute-right {
+        width: 100%;
+        padding-bottom: 30px;
+        text-align: center;}
+    .aboute-right img {
+        width: 50%;
+        margin: 0;}
+/*=====> About-section-end <===========*/
+    .event-menu {
+        grid-template-columns: repeat( auto-fit, minmax(425px, 1fr));}
+/*=====> Service-section-start <=======*/
+    .service-top h1 {
+        font-size: 35px;}
+    .service-top p {
+        padding: 10px;}
+    .service-menu {
+        grid-template-columns: repeat( auto-fit, minmax(285px, 1fr));
+        grid-gap: 10px;
+        padding: 50px 0;}
+    .service-left {
+        text-align: center;}
+    .service-text {
+        margin: 10px;}
+    .service-text p {
+        margin: 5px;}
+/*=====> Service-section-end <=======*/
+/*======> sub-section start <========*/
+    .sub-menu-item {
+        padding: 15px;}
+    .sub-menu-item h1 {
+        font-size: 29px;}
+    .form input {
+        width: 90%;
+        margin-bottom: 10px;}
+    .form button {
+        width: 45%;
+        border-radius: 47px 0 50px 0;}
+/*======> sub-section end <============*/
+/*======> contact-section start <======*/
+    .contact-top h1 {
+        font-size: 50px;}
+    .contact-top p {
+        padding: 10px;}
+    .contact-form input {
+        width: 82%;
+        margin: 4px;
+        padding: 11px;}
+    .contact-form textarea {
+        width: 89%;
+        padding: 6px;
+        margin: 10px;}
+    .contact-form button {
+        width: 42%;
+        border-radius: 50px 0 50px 0;}
+/*======> contact-section-end <=========*/
+/*======> googlemp-section-start <======*/
+    .googlemp {
+        padding: 9px 0px 0;}
+/*======> googlemp-section-end <======*/
+/*=====> Footer-section-end <=========*/
+    .footer-menu {
+        padding: 24px 10px;
+        grid-gap: 15px;}
+    .copy-section{
+        background: #000;
+        padding: 10px 0;}
+    .copy {
+        display: contents;}
+    .copy-left{
+        position: relative;
+        top: 55px;
+        text-align: center;}
+    .copy-left p {
+        margin-left: 0px;}
+    .copy-right{
+        position: relative;
+        top: -44px;
+        margin-left: 0px;}
+    .copy-right nav ul {
+        padding: 0 136px;}
+    .copy-right nav ul li a {
+        border-right: none;
+        padding: 0;}
+/*=====> Footer-section-end <=======*/
+}
+/* ----------- responsive 601 end----------- */
+
+/* ----------- iPhone 4 and 4S  start----------- */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px){
+/*======> header-top-section start <======*/
+    .top-menu-left{
+        width: 70%;}
+    .top-menu-left img {
+        width: 29%;
+        margin: 15px 0px 0px 15px;}
+/*======> header-top-section end <======*/
+/*======> live section start <===========*/
+    .event-menu {
+        grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));}
+    .event-menu-left img {
+        width: 100%}
+    .event-menu-left{
+        padding: 10px;}
+    .event-menu-right {
+        text-align: center;
+        padding:0;}
+    .event-menu-right h1 {
+        font-size: 40px;
+        margin: 0;}
+    .event-menu-right pre {
+        font-size: 16px;
+        padding:0px;}
+    .event-menu-right p {
+        padding: 0 10px;}
+    .event-btn{
+        padding: 0 0 40px;}
+/*======> live section end <==========*/
+/*======> dishes-section start <======*/
+    .dishes-background {
+        padding: 0px 0px 165px 0px;}
+/*======> dishes-section end <======*/
+/*======> video-section start <=====*/
+    .video-menu {
+        padding: 50px 0px;}
+    .video-menu h1 {
+        font-size: 30px;}
+/*======> video-section end <==========*/
+/*======> sub-section start <========*/
+.form button {
+    width: 55%;
+    border-radius: 47px 0 50px 0;}
+/*======> sub-section end <============*/
+/*======> contact-section start <======*/
+    .contact-form button {
+        width: 62%;}
+/*======> contact-section-end <=========*/
+/*======> footer-section-start <========*/
+    .copy-right nav ul {
+        padding: 0 21px;}
+/*======> footer-section-end <==========*/
+}
+/* ----------- iPhone 4 and 4S  end----------- */
